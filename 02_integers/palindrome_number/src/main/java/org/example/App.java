@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 class Solution {
 
+    // TC: O(log(n)), SC: O(1)
     public static boolean isPalindrome(int x) {
         // if the number is a negative number
         // if the number end with 0 except the number zero

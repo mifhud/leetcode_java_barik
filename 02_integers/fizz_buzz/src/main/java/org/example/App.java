@@ -8,6 +8,7 @@ import java.util.List;
 
 class Solution {
 
+    // TC: O(n), SC: O(n)
     public static List<String> fizzBuzz(int n) {
         List<String> res = new ArrayList<String>();
         for (int i = 1; i <= n; i++) {

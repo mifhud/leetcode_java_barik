@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 class Solution {
 
+    // TC: O(log2(n)), SC: O(1)
     static double root(double x, int n) {
         double left = 1.0;
         double right = x;

@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 class Solution {
 
+    // TC: O(log(n)), SC: O(1)
     public static int reverse(int x) {
         int reversed = 0;
         int min = Integer.MIN_VALUE;

@@ -54,6 +54,7 @@ We continue until 5^x is greater than n.
 
 class Solution {
 
+    // TC: O(log5(n)), SC: O(1)
     public static int trailingZeroes(int n) {
         int count = 0;
 

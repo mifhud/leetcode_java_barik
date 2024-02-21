@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 class Solution {
 
+    // TC: O(n), SC: O(1)
     public static void reverseString(char[] s) {
         int left = 0;
         int right = s.length - 1;

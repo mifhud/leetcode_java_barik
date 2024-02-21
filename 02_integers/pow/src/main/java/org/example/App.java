@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 class Solution {
 
+    // TC: O(log(n)), SC: O(1)
     public static double myPow(double x, int n) {
         double ans = 1.0;
         long num = n;
